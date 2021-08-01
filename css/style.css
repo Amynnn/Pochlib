@@ -1,0 +1,91 @@
+body {
+  text-align: center;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+#results {
+  text-align: center;
+  justify-content: space-around;
+  width: 100%;
+}
+
+#results-books {
+  display: flex;
+  flex-flow: wrap;
+  text-align: center;
+  justify-content: center;
+  width: 100%;
+}
+
+@media (max-width: 1025px) {
+  .book {
+    width: 320px;
+  }
+
+  .my-book {
+    width: 320px;
+  }
+}
+#myBooks .title {
+  background-color: #dbdbdb;
+  border: none;
+  box-shadow: 0px 2px 0px #303030;
+}
+#myBooks img {
+  max-width: 15%;
+  max-height: 15%;
+  text-align: center;
+}
+#myBooks button {
+  background-color: #248f7d;
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  border-radius: 5px;
+}
+#myBooks #search {
+  background-color: #248f7d;
+}
+#myBooks #cancel {
+  background-color: #8f3924;
+}
+#myBooks .addbutton {
+  background-color: #302e2e;
+}
+#myBooks .remove-button {
+  background-color: blue;
+}
+#myBooks .addbutton:active {
+  background-color: black;
+}
+#myBooks .book {
+  display: table-cell;
+  flex-flow: column wrap;
+  align-items: center;
+  max-width: 500px;
+  border: black solid;
+  margin: 5px;
+}
+
+#content {
+  display: flex;
+  flex-flow: wrap;
+  text-align: center;
+  justify-content: center;
+  width: 100%;
+}
+
+#content .my-book {
+  display: table-cell;
+  flex-flow: column wrap;
+  align-items: center;
+  max-width: 500px;
+  border: black solid;
+  margin: 5px;
+}
+
+/*# sourceMappingURL=style.css.map */
